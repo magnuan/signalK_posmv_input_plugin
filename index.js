@@ -20,6 +20,7 @@ module.exports = (app) => {
       socket.on('error', (err) => {
         app.error(`Socket error: ${err}`);
         socket.close();
+        socket=null;
       });
 
 
