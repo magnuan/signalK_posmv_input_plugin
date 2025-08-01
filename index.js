@@ -71,7 +71,7 @@ module.exports = (app) => {
         // Further message handling goes here
       });
 
-      socket.bind(port, ip, () => {
+      socket.bind(port, '0.0.0.0', () => {
         app.debug(`Listening for UDP packets on ${ip}:${port}`);
       });
 
