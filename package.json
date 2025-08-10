@@ -1,10 +1,10 @@
 {
   "name": "posmv_input_plugin",
   "version": "1.0.0",
-  "description": "SignalK plugin for reading position and attitude from Applanix PosMV $GRP1 messages",
+  "description": "SignalK plugin for reading position and attitude from Applanix PosMV",
   "keywords": [
     "signalk-node-server-plugin",
-    "signalk-category-ais"
+    "signalk-category-hardware"
   ],
   "signalk-plugin-enabled-by-default": false,
   "signalk": {
@@ -20,7 +20,7 @@
     "url": "git+https://github.com/magnuan/signalK_posmv_input_plugin.git"
   },
   "author": "Magnus Andersen",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/magnuan/signalK_posmv_input_plugin/issues"
   },
